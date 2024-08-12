@@ -1,7 +1,7 @@
 on:
   push:
     paths:
-      - '/app1/**'
+      - 'app1/**'
 jobs:
   build:
     runs-on: ubuntu-latest
