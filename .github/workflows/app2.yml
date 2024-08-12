@@ -1,10 +1,10 @@
 on:
   push:
     paths:
-      - 'app2/**'
+      - "app2/**"
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: App1 Hello
-        run: echo "This is App2"
+        run: npm run test
