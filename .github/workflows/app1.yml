@@ -1,8 +1,8 @@
 on:
   pull_request:
     branches: ["main", "develop"]
-    paths:
-      - "app1/**"
+    # paths:
+    #   - "app1/**"
 jobs:
   test:
     runs-on: ubuntu-latest
