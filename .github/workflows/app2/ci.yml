@@ -1,8 +1,7 @@
 on:
   push:
     branches: ["main", "develop"]
-    paths:
-      - "app2/**"
+
 jobs:
   test:
     runs-on: ubuntu-latest

@@ -1,12 +1,6 @@
 on:
-  pull_request:
-    branches: ["main", "develop"]
-    paths-ignore:
-      - "!app1/**"
   push:
     branches: ["main", "develop"]
-    paths-ignore:
-      - "!app1/**"
 jobs:
   test:
     runs-on: ubuntu-latest
