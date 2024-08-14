@@ -1,8 +1,8 @@
 on:
   push:
     branches: ["main", "develop"]
-    paths-ignore:
-      - "!app1/**"
+    paths:
+      - "app2/**"
 jobs:
   test:
     runs-on: ubuntu-latest
