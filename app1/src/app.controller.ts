@@ -7,6 +7,7 @@ export class AppController {
 
   @Get()
   getHello() {
+    // Change app 1
     return { message: 'App1' };
   }
 }
