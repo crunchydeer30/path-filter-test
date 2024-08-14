@@ -6,7 +6,7 @@ on:
       - "!app1/**/*"
 
 jobs:
-  test:
+  ci:
     runs-on: ubuntu-latest
     strategy:
       matrix:
